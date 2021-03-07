@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    outline: none!important;
+}
+a:hover{
+    text-decoration: none;
+}
+.custom_css_navbar{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.custom_color_hyperlink li a{
+    color: #c3c2ca!important;
+    font-size: 18px;
+    font-family: Poppins;
+}
+.custom_color_hyperlink li a:hover{
+    color: #333237!important;
+}
+.custom_color_hyperlink li{
+    padding: 0 12px;
+}
+.custom_color_hyperlink li.active a{
+    color: #333237!important;
+}
+
+.buttons_account a {
+    color: #c3c2ca;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: Poppins; 
+}
+
+.buttons_account a:hover{
+    background-color: #9be2e1;
+    color:#fff;
+    text-decoration: none;
+}
+.content_heading .title_shorter{
+    padding-top: 65px;
+    padding-bottom: 5px;
+}
+.content_heading .title_shorter h1{
+    font-size: 60px;
+    color: #333237;
+    font-family: 'Poppins';
+    font-weight: 900;
+    line-height: 80px;
+}
+.content_heading .subtitle_shorter{
+    padding-top: 10px;
+    padding-bottom: 45px;
+}
+.content_heading .subtitle_shorter h3{
+    font-family: "Poppins";
+    color: #c3c2ca;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+.content_heading .start_shorter a{
+    padding: 16px 32px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #c3c2ca;
+    background-color: #9be2e1;
+    color:#fff;
+    text-decoration: none;
+}
+
+.image_ilustation img{
+    width: 100%;
+}
+.relativ{
+    position: relative;
+    height: 180px;
+}
+.create_shortly_link{
+    background-image: url(../img/bg-shorten-desktop.svg);
+    margin-top: 90px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    background-color: #3a3053;
+    background-size: cover;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.create_shortly_link form{
+    display: flex;
+}
+.create_shortly_link form .form-group{
+   width: 75%;
+}
+.create_shortly_link  .btn_div{
+    width: 25%;
+}
+.create_shortly_link form input{
+    padding: 25px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #c3c2ca;
+    border: 4px solid #fff;
+}
+.create_shortly_link  form .btn_div button{
+    padding: 13px 30px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #fff;
+    background-color: #26d2d4;
+}
+.container.output_results {
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.background_oputput {
+    background-color: #f0f1f6;
+    padding-top: 100px;
+}
+
+.result_container{
+    display: flex;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    color: #33323a;
+}
+.result_container  .original_link{
+    width: 60%;
+}
+.result_container  .original_link h5{
+    font-size: 18px;
+    font-family: 'Poppins';
+
+}
+.result_container .shorted_link{
+    width: 40%;
+    display: flex;
+}
+.result_container .shorted_link a{
+    color: #26d2d4;
+    font-family: 'Poppins';
+}
+.result_container .shorted_link button{
+    padding: 5px 16px;
+    margin-left: 10px;
+    background-color: #26d2d4;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins';
+    border: none;
+}
+.link_base {
+    width: 75%;
+}
+.link_base_btn{
+    width: 25%;
+}
+.advanced_statistics{
+    text-align: center;
+    padding-bottom: 110px;
+}
+.advanced_statistics h2{
+    color: #33323a;
+    font-family: 'Poppins';
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.advanced_statistics h3{
+    font-family: "Poppins";
+    color: #c3c2ca;
+    font-size: 20px;
+    line-height: 35px;
+} 
+
+.icon_statistic{
+        background-color: #3a3053;
+        text-align: center;
+        padding-top: 25px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        position: absolute;
+        top: -45px;
+        left: 35px;
+    
+}
+
+.advanced_statistics .custom_style {
+    padding: 90px 22px 32px 22px;
+    text-align: initial;
+    border-radius: 10px;
+    
+}
+.relativ_position{
+    position: relative;
+}
+.down_2{
+    margin-top: 40px;
+}
+.down_3{
+    margin-top: 80px;
+}
+.max_content_boost{
+    background-image: url(../img/bg-boost-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: #3a3053;
+    background-size: cover;
+    text-align: center;
+
+}
+.boost_container{
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.boost_container h2{
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 65px;
+}
+.boost_container a{
+    background-color: #26d2d4;
+    padding: 18px 36px;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Poppins';
+    border-radius: 40px;
+}
+.custom_style h4{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #232027;
+    padding-bottom: 10px;
+}
+.custom_style p{
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: #c3c2ca;
+    padding-bottom: 10px;
+}
+.footer_max_container{
+    background-color: #232027;
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+.flex__sections {
+    display: flex;
+}
+.box_list{
+    width: 33%;
+}
+.box_list h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-bottom: 12px;
+}
+
+.box_list ul li{
+    padding-bottom: 8px;
+}
+.box_list ul a{
+    color: #c0c0c0;
+    font-size: 17px;
+    font-family: 'Poppins';
+}
+.socials_icons svg {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.copyed{
+    background-color: #3a3053!important;
+}
+
+
+@media(max-width:767.98px){
+    .create_shortly_link form,
+    .result_container,
+    .result_container .shorted_link {
+        display: block;
+    }
+    .create_shortly_link form .form-group,
+    .create_shortly_link .btn_div,
+    .create_shortly_link form .btn_div button,
+    .result_container .original_link,
+    .result_container .shorted_link,
+    .link_base_btn,
+    .result_container .shorted_link button,
+    .box_list{
+        width: 100%;
+    }
+    .box_list{
+        text-align: center;
+    }
+    .cente_logo{
+        text-align: center;
+    }
+    .socials_icons {
+        text-align: center;
+    }
+    .container.output_results {
+        padding-top: 55px;
+    }
+    .relativ_position {
+        margin-bottom: 40px;
+    }
+    .icon_statistic {
+        left: 40%;
+    }
+    .boost_container h2 {
+        font-size: 40px;
+    }
+    .flex__sections {
+        display: block;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .content_heading .title_shorter h1 {
+        font-size: 45px;
+    }
+    .order2{
+        order: 2;
+    }
+    .order1{
+        order: 1;
+    }
+    .box_list ul {
+        padding-left: 0px;
+    }
+}

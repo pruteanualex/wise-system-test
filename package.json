@@ -1,0 +1,29 @@
+{
+  "name": "reactjssite",
+  "version": "1.0.0",
+  "description": "a react js/node js site",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "webpack --mode=development",
+    "prod": "node server.js"
+  },
+  "author": "Pruteanu Alexandru",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "axios": "^0.21.1",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "express": "^4.17.1",
+    "node": "^15.10.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2",
+    "shortly": "0.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
